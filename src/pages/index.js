@@ -12,6 +12,7 @@ import React from "react"
  const IndexPage = () => (
    <Layout>
      <SEO title="Home" />
+     This is only a test.
      <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
        <Image />
      </div>

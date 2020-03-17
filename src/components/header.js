@@ -3,21 +3,29 @@ import { Link } from "gatsby"
 import React from "react";
 // import ScrollspyNav from "react-scrollspy-nav"
 import Scrollspy from 'react-scrollspy'
+import logoImage from "../images/a-designer-d-logo.svg"
+import youTubelogo from "../images/yt-logo.svg"
 
-import { Container, Navbar, Nav } from 'react-bootstrap';
+import { Container, Navbar, Nav } from 'react-bootstrap'
 
 if (typeof window !== "undefined") {
   // eslint-disable-next-line global-require
   require("smooth-scroll")('a[href*="#"]')
 }
 
+
+
 const Header = ({ siteTitle }) => (
   <header>
-         <Link to="/">{siteTitle}</Link>
-
+         
          <Container>
-           <Navbar expand="lg" fixed="top">
-             <Navbar.Brand href="#home"><Link to="/">{siteTitle}</Link></Navbar.Brand>
+           <Navbar expand="lg" fixed="top" variant="dark">
+              <Navbar.Brand href="#home">
+                <Link to="/#top">
+                  <img src={logoImage} alt={siteTitle} className="img-fluid" width="50" />
+                 
+                </Link>
+              </Navbar.Brand>
              <Navbar.Toggle aria-controls="basic-navbar-nav" />
              <Navbar.Collapse id="basic-navbar-nav">
                <Nav className="navbar-nav"> 
@@ -29,6 +37,9 @@ const Header = ({ siteTitle }) => (
                      <li><a href="#section-4" className="nav-link">section 4</a></li>
                    </Scrollspy>
                  </ul>
+               </Nav>
+               <Nav className="navbar-nav ml-auto">
+               <a href="https://www.youtube.com/adesignerwhocodes"><img src={youTubelogo} alt="YouTube" className="img-fluid" width="100" /></a>
                </Nav>
              </Navbar.Collapse>
            </Navbar>

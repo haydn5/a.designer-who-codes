@@ -1,10 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&display=swap');
+
 nav {
-     background-color: wheat;
+    background-color: #1a1a1a;
+     min-height: 100px;
  }
 
- li.active a {
-     color: purple !important;
+ body {
+     padding-top: 100px;
  }
+
+ .navbar-dark .navbar-nav .nav-link {
+     color: white;
+     font-family: 'Fira Code', monospace;
+     font-size: 1.25rem;
+ }
+
+
+ .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+     color: #4494c9;
+ }
+
 
 .singlePage {
     min-height: 100vh;
