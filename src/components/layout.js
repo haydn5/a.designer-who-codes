@@ -8,6 +8,11 @@ import Header from "./header"
 import 'bootstrap/dist/css/bootstrap.min.css'
 import "../css/custom.css"
 
+if (typeof window !== "undefined") {
+  // eslint-disable-next-line global-require
+  require("smooth-scroll")('a[href*="#"]')
+}
+
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {

@@ -9,12 +9,12 @@ import SEO from "../components/seo"
 import { Container } from "react-bootstrap";
 
 const AboutPage = (props) => (
-    <div id={props.divName} className="singlePage">
+    <section id={props.sectionName} className="singlePage">
         <SEO title="Home" />
         <Container>
             Test
         </Container>
-    </div>
+    </section>
 )
 
 export default AboutPage
