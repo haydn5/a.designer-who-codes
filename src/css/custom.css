@@ -2,6 +2,20 @@ nav {
     background-color: wheat;
 }
 
-li.active a {
-    color: purple !important;
+
+.active {
+    color: green;
+    background-color: red;
+}
+
+h2 {
+    padding-top: 100px;
+}
+
+.singlePage {
+    min-height: 100vh;
+    display: flex;
+    background-color: rebeccapurple;
+    align-items: center;
+    color: white;
 }

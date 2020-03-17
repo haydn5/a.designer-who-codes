@@ -1,9 +1,11 @@
 import { Link } from "gatsby"
 // import PropTypes from "prop-types"
 import React from "react"
-import Scrollspy from 'react-scrollspy'
+import ScrollspyNav from "react-scrollspy-nav";
 
 import { Container, Navbar, Nav } from 'react-bootstrap';
+
+
 
 const Header = ({ siteTitle }) => (
   <header>
@@ -14,13 +16,21 @@ const Header = ({ siteTitle }) => (
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="navbar-nav"> 
-                <ul className="navbar-nav">
-                  <Scrollspy items={ ['section-1', 'section-2', 'section-3'] } className="navbar-nav" currentClassName="active">
-                    <li><a href="#test" className="nav-link">Test</a></li>
-                    <li><a href="#section-2" className="nav-link">section 2</a></li>
-                    <li><a href="#section-3" className="nav-link">section 3</a></li>
-                  </Scrollspy>
-                </ul>
+                
+                
+                  <ScrollspyNav
+                    scrollTargetIds={[ "the-first", "the-second", "about" ]}
+                    activeNavClass="active" 
+                    scrollDuration="1000"
+                    className="navbar-nav"
+                  >
+                    <ul>
+                      <li><a href="#the-first" className="nav-link">The First</a></li>
+                      <li><a href="#the-second" className="nav-link">The Second</a></li>
+                      <li><a href="#about" className="nav-link">About</a></li>
+                    </ul>
+                  </ScrollspyNav>
+                
               </Nav>
             </Navbar.Collapse>
           </Navbar>
