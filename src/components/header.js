@@ -24,7 +24,7 @@ const Header = ({ siteTitle }) => (
                     scrollDuration="1000"
                     className="navbar-nav"
                   >
-                    <ul>
+                    <ul className="navbar-nav">
                       <li><a href="#the-first" className="nav-link">The First</a></li>
                       <li><a href="#the-second" className="nav-link">The Second</a></li>
                       <li><a href="#about" className="nav-link">About</a></li>

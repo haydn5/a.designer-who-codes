@@ -19,10 +19,6 @@ const Layout = ({ children }) => {
     }
   `)
 
-  // if (typeof window !== "undefined") {
-  //   require("smooth-scroll")('a[href*="#"]')
-  // }
-
   return (
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
