@@ -1,11 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: `Starter Template with React Bootstrap`,
-    description: ``,
-    author: `Haydn Adams`,
+    title: `<a.designer who codes />`,
+    description: `The code behind the design`,
+    author: `Haydn Adams, BFA`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-smoothscroll`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {

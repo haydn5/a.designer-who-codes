@@ -1,0 +1,7 @@
+nav {
+    background-color: wheat;
+}
+
+li.active a {
+    color: purple !important;
+}
