@@ -30,7 +30,10 @@ const Header = ({ siteTitle }) => (
              <Navbar.Collapse id="basic-navbar-nav">
                <Nav className="navbar-nav"> 
                  <ul className="navbar-nav">
-                   <Scrollspy items={ ['courses', 'testimonials', 'about', 'youtube', 'patreon', 'contact'] } className="navbar-nav" currentClassName="active">
+                   <Scrollspy 
+                   items={['courses', 'testimonials', 'about', 'youtube', 'patreon', 'contact']} 
+                   offset={200} 
+                   className="navbar-nav" currentClassName="active">
                      <li><a href="#courses" className="nav-link">Courses</a></li>
                      <li><a href="#testimonials" className="nav-link">Testimonials</a></li>
                      <li><a href="#about" className="nav-link">About</a></li>
