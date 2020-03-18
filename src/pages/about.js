@@ -5,13 +5,12 @@ import haydnPhoto from "../images/haydn-photo.jpg"
 
 
 const About = (props) => (
-    <div className="margin10vh">
     <section id={props.sectionName}>
         <Container>
             <h2 className="text-center">About Haydn S. Adams, BFA</h2>
             <Row>
                 <Col lg={4}>
-                    <Image src={haydnPhoto} alt="Photo of Haydn" fluid rounded />
+                    <p><Image src={haydnPhoto} alt="Photo of Haydn" fluid rounded /></p>
                 </Col>
                 <Col lg={8}>
                     <p>Since the mid '90s, Haydn has been building websites. He decided to up his design game and receive a Bachelors of Fine Arts in Computer Arts in New Media from the Academy of Art University in San Francisco</p>
@@ -24,7 +23,6 @@ const About = (props) => (
             </Row>
         </Container>
     </section>
-    </div>
 )
 
 export default About

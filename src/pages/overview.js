@@ -12,7 +12,7 @@ import computerAfter from "../images/computer-after.jpg"
 import { Container, Image, Row, Col } from "react-bootstrap";
 
 const AboutPage = (props) => (
-    <section id={props.sectionName} className="singlePage">
+    <section id={props.sectionName}>
         
         <Container>
             <Row>
@@ -20,7 +20,7 @@ const AboutPage = (props) => (
                     <Image src={computerBefore} alt="Computer before" fluid />
                 </Col>
                 <Col md={4}>
-                    <Image src={mainLogo} alt="A Designer who codes full logo" className="mt-1 pl-1 pr-1" fluid />
+                    <Image src={mainLogo} alt="A Designer who codes full logo"  fluid />
                     <h1 className="text-center codeType mt-3 smaller">&lt;Teaching the code <br />
 behind the design /&gt;</h1>
                 </Col>

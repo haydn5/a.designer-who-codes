@@ -6,14 +6,14 @@ nav {
      /* background-color: rgba(0,0,0,.5); */
  }
 
- .margin10vh {
-     padding-top: 10vh;
+ section {
+     padding-top: 15vh;
+     min-height: 100vh;
+
+     display: flex;
+     align-items: center;
  }
- .margin10vh section {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-}
+
 
  .displayNone {
      display: none;
@@ -41,17 +41,11 @@ nav {
 
  
 
- .singlePageBlue {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
+ .blue {
     background-color: #4494c9;
  }
 
- .singlePageBlack {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
+ .Black {
     background-color: black;
  }
 
@@ -69,13 +63,7 @@ nav {
      font-size: 1em;
  }
 
-.singlePage {
-    min-height: 100vh;
-    display: flex;
-    /* background-color: #4494c9; */
-    align-items: center;
-    /* color: white; */
-}
+
 
 .black {
     background-color: black;

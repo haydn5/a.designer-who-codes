@@ -6,7 +6,7 @@ import gatsbyJSstarter from "../images/courses/gatsby-js-starter-guide.jpg"
 
 
 const Courses = (props) => (
-    <section id={props.sectionName} className="singlePageBlue">
+    <section id={props.sectionName} className="blue">
         
         <Container className="text-center">
             <h2 >Udemy Courses</h2>
