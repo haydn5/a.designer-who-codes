@@ -21,9 +21,8 @@ const Header = ({ siteTitle }) => (
          <Container>
            <Navbar expand="lg" fixed="top" variant="dark">
               <Navbar.Brand href="#home">
-                <Link to="/#top">
+                <Link to="/#overview">
                   <img src={logoImage} alt={siteTitle} className="img-fluid" width="50" />
-                 
                 </Link>
               </Navbar.Brand>
              <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -31,14 +30,14 @@ const Header = ({ siteTitle }) => (
                <Nav className="navbar-nav"> 
                  <ul className="navbar-nav">
                    <Scrollspy 
-                   items={['courses', 'testimonials', 'about', 'youtube', 'patreon', 'contact']} 
-                   offset={200} 
+                   items={['overview', 'courses', 'patreon', 'about', 'testimonials', 'youtube','contact']} 
                    className="navbar-nav" currentClassName="active">
+                     <li className="displayNone"><a href="#overview" className="nav-link">Overview</a></li>
                      <li><a href="#courses" className="nav-link">Courses</a></li>
-                     <li><a href="#testimonials" className="nav-link">Testimonials</a></li>
-                     <li><a href="#about" className="nav-link">About</a></li>
-                     <li><a href="#youtube" className="nav-link">YouTube</a></li>
                      <li><a href="#patreon" className="nav-link">Patreon</a></li>
+                     <li><a href="#about" className="nav-link">About</a></li>
+                     <li><a href="#testimonials" className="nav-link">Testimonials</a></li>
+                     <li><a href="#youtube" className="nav-link">YouTube</a></li>
                      <li><a href="#contact" className="nav-link">Contact</a></li>
                    </Scrollspy>
                  </ul>

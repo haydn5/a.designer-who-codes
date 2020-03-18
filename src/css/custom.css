@@ -3,6 +3,20 @@
 nav {
     background-color: #1a1a1a;
      min-height: 10vh;
+     /* background-color: rgba(0,0,0,.5); */
+ }
+
+ .margin10vh {
+     padding-top: 10vh;
+ }
+ .margin10vh section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+ .displayNone {
+     display: none;
  }
 
  h1 {
@@ -12,10 +26,6 @@ nav {
  h2 {
     font-family: 'Fira Code', monospace;
     margin-bottom: 1em;
- }
-
- .emptySpace {
-    margin-top: 10vh;
  }
 
  .navbar-dark .navbar-nav .nav-link {
@@ -29,11 +39,20 @@ nav {
      color: #4494c9;
  }
 
+ 
+
  .singlePageBlue {
-    min-height: 80vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     background-color: #4494c9;
+ }
+
+ .singlePageBlack {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: black;
  }
 
  .singlePageBlue h2 {
@@ -51,14 +70,16 @@ nav {
  }
 
 .singlePage {
-    min-height: 80vh;
+    min-height: 100vh;
     display: flex;
     /* background-color: #4494c9; */
     align-items: center;
     /* color: white; */
-    margin-bottom: 10px;
 }
 
+.black {
+    background-color: black;
+}
 .codeType {
     font-family: 'Fira Code', monospace;
 }

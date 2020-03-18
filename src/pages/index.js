@@ -3,12 +3,16 @@ import React from "react"
  import SEO from "../components/seo"
  import Overview from "./overview"
  import Courses from "./courses"
+ import Patreon from "./patreon"
+ import About from "./about"
 
  const IndexPage = () => (
    <Layout>
      <SEO title="Teaching the code behind the design" />
-     <Overview />
+     <Overview sectionName="overview"/>
      <Courses sectionName="courses"/>
+     <Patreon sectionName="patreon" />
+     <About sectionName="about" />
    </Layout>
  )
 
