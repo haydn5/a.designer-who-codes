@@ -18,7 +18,7 @@ const Courses = (props) => (
                             </Card.Title>
                             <Card.Text>
                             <p>I spend a majority of my time making YouTube videos for you to use and consume, gratis. If you have received some value the from myriad of videos, it would be awesome if you would contribute. Even $3 a month means the world (and I can buy another latte that month).</p>  
-                            <p>Free course coupon tiers are availabe</p>
+                            <p>Free course coupon tiers are availabe.</p>
                             </Card.Text>
                             <p>
                                 <a href="https://www.patreon.com/adesignerwhocodes?fan_landing=true">

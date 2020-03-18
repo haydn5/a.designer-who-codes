@@ -4,6 +4,8 @@ import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
+import { Container } from "react-bootstrap";
+
 import Header from "./header"
 import 'bootstrap/dist/css/bootstrap.min.css'
 import "../css/custom.css"
@@ -31,9 +33,10 @@ const Layout = ({ children }) => {
       <div>
         <main>{children}</main>
         <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <hr />
+          <Container className="text-center mb-5">
+          © {new Date().getFullYear()}, a.designer who codes
+          </Container>
         </footer>
       </div>
     </>
