@@ -5,14 +5,14 @@ import React from "react"
  import Layout from "../components/layout"
  import Image from "../components/image"
  import SEO from "../components/seo"
- import About from "./about"
+ import Overview from "./overview"
 
  import Scrollspy from 'react-scrollspy'
 
  const IndexPage = () => (
    <Layout>
-     <SEO title="Home" />
-     This is only a test.
+     <SEO title="Teaching the code behind the design" />
+     <Overview />
      <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
        <Image />
      </div>
@@ -60,7 +60,7 @@ import React from "react"
        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ut magna massa. Aenean blandit, felis in gravida faucibus, nibh elit ullamcorper justo, rutrum suscipit erat elit vel eros. Vestibulum ex tortor, convallis eu dignissim non, vestibulum at eros. Phasellus id ultricies lorem. Cras a malesuada erat. Suspendisse potenti. Proin hendrerit tellus eu rhoncus aliquam. Aliquam dictum diam in lorem imperdiet consectetur. Mauris cursus non ligula vel faucibus. Fusce risus elit, luctus eget auctor ut, cursus in enim. Mauris aliquet sollicitudin purus, sit amet luctus velit sollicitudin eget. Phasellus purus eros, eleifend at lobortis quis, varius vel ante. Phasellus vel bibendum odio, eget cursus sapien. Sed consectetur enim nec ipsum feugiat, vitae pulvinar eros porta.
      </p>
 
-        <About sectionName="section-4" />
+        
 
    </Layout>
  )

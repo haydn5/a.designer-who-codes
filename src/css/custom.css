@@ -2,11 +2,15 @@
 
 nav {
     background-color: #1a1a1a;
-     min-height: 100px;
+     min-height: 10vh;
  }
 
- body {
-     padding-top: 100px;
+ h1 {
+     font-size: 1.4em;
+ }
+
+ .emptySpace {
+    margin-top: 10vh;
  }
 
  .navbar-dark .navbar-nav .nav-link {
@@ -22,9 +26,19 @@ nav {
 
 
 .singlePage {
-    min-height: 100vh;
+    min-height: 40vh;
     display: flex;
-    background-color: rebeccapurple;
+    /* background-color: #4494c9; */
     align-items: center;
-    color: white;
+    /* color: white; */
+}
+
+.codeType {
+    font-family: 'Fira Code', monospace;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2em;
+    }
 }
