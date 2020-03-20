@@ -3,6 +3,7 @@ module.exports = {
     title: `<a.designer who codes />`,
     description: `The code behind the design`,
     author: `Haydn Adams, BFA`,
+    siteUrl: `https://adesignerwhocodes.com`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -14,6 +15,7 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
