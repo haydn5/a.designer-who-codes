@@ -5,6 +5,7 @@ import React from "react"
  import Courses from "./courses"
  import Patreon from "./patreon"
  import About from "./about"
+//  import Image from "../components/image"
 
  const IndexPage = () => (
    <Layout>
