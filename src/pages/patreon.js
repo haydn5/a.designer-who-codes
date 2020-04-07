@@ -16,7 +16,7 @@ const Patreon = (props) => {
         placeholderImage: file(relativePath: { eq: "background-with-code.jpg" }) {
           childImageSharp {
             fluid(maxWidth: 2000) {
-              ...GatsbyImageSharpFluid
+              ...GatsbyImageSharpFluid_withWebp
             }
           }
         }
