@@ -9,7 +9,7 @@ import React from "react"
 
  const IndexPage = () => (
    <Layout>
-     <SEO title="Teaching the code behind the design" />
+     <SEO title="Web Development Tutorials for Designers" />
      <Overview sectionName="overview"/>
      <Courses sectionName="courses"/>
      <Patreon sectionName="patreon" />

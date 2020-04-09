@@ -21,8 +21,8 @@ const AboutPage = (props) => (
                 </Col>
                 <Col md={4}>
                     <Image src={mainLogo} alt="A Designer who codes full logo"  fluid />
-                    <h1 className="text-center codeType mt-3 smaller">&lt;Teaching the code <br />
-behind the design /&gt;</h1>
+                    <h1 className="text-center codeType mt-3 smaller">&lt;Web Development Tutorials<br />
+                    for Designers /&gt;</h1>
                 </Col>
                 <Col md={4}>
                     <Image src={computerAfter} alt="Computer After" fluid />
