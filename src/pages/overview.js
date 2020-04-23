@@ -8,6 +8,7 @@ import computerBefore from "../images/computer-before.jpg"
 import computerAfter from "../images/computer-after.jpg"
 
 
+
 // import Scrollspy from 'react-scrollspy'
 import { Container, Image, Row, Col } from "react-bootstrap";
 
@@ -29,6 +30,7 @@ const AboutPage = (props) => (
                 </Col>
             </Row>
         </Container>
+        
     </section>
 )
 
