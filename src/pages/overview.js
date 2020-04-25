@@ -10,7 +10,7 @@ import computerAfter from "../images/computer-after.jpg"
 
 
 // import Scrollspy from 'react-scrollspy'
-import { Container, Image, Row, Col, Form } from "react-bootstrap";
+import { Container, Image, Row, Col } from "react-bootstrap";
 
 const AboutPage = (props) => (
     <section id={props.sectionName}>
@@ -25,12 +25,12 @@ const AboutPage = (props) => (
                     <h1 className="text-center codeType mt-3 smaller">&lt;Web Development Tutorials<br />
                     for Designers /&gt;</h1>
                 </Col>
-                <Col lg={2}>
+                <Col lg={4}>
                     <Image src={computerAfter} alt="Computer After" fluid />
                 </Col>
             </Row>
             <hr />
-            <h2><small>Sign Up for our monthly email</small></h2>
+            {/* <h2><small>Sign Up for our monthly email</small></h2>
 
 
             <script src="https://f.convertkit.com/ckjs/ck.5.js" />
@@ -56,7 +56,22 @@ const AboutPage = (props) => (
                         </Row>
                     </div>
                 </div>
-            </Form>
+            </Form> */}
+            <div className="singleCol">
+                <em>
+                <p>
+                    I've always had the belief that learning how to code, even on a basic level, will make you a better web designer. My courses, YouTube Channel and podcast are all about helping you achieve a better web design, through good programming methodologies. 
+                </p>
+                <p>Proper markup, good CSS and image optimization means your sites will load faster, preform better and just look darn good.</p>
+                <p>
+                    Drop the drag-and-drop and get your hands dirty. Throw some error messages, forget a few close tags and let's learn how to code in HTML, CSS, JS/JSX. And watch your design skills on the web thrive. 
+                </p>
+                <p>
+                Thank you,<br />
+                Haydn S. Adams, BFA
+                </p>
+                </em>
+            </div>
         </Container>
         
     </section>
