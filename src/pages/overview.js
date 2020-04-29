@@ -10,7 +10,7 @@ import computerAfter from "../images/computer-after.jpg"
 
 
 // import Scrollspy from 'react-scrollspy'
-import { Container, Image, Row, Col } from "react-bootstrap";
+import { Container, Image, Row, Col, Form } from "react-bootstrap";
 
 const AboutPage = (props) => (
     <section id={props.sectionName}>
@@ -30,7 +30,7 @@ const AboutPage = (props) => (
                 </Col>
             </Row>
             <hr />
-            {/* <h2><small>Sign Up for our monthly email</small></h2>
+            <h2><small>Sign Up for our monthly email</small></h2>
 
 
             <script src="https://f.convertkit.com/ckjs/ck.5.js" />
@@ -56,7 +56,8 @@ const AboutPage = (props) => (
                         </Row>
                     </div>
                 </div>
-            </Form> */}
+            </Form>
+            <hr />
             <div className="singleCol">
                 <em>
                 <p>
