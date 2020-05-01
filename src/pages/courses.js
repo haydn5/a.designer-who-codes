@@ -1,4 +1,4 @@
-import Rxeact from "react"
+import React from "react"
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 
 import introToHTML from "../images/courses/intro-to-html-css-responsive-portfolio.jpg"
