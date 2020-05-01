@@ -9,7 +9,7 @@ import gatsbyJSBlog from "../images/courses/udemy-gatsby-js-blog.jpg"
 const Courses = (props) => (
     <section id={props.sectionName} className="blue">
         <Container className="text-center">
-            <h2 >Udemy Courses</h2>
+            <h2>What do you want to learn about?</h2>
             <Row>
                 <Col md={6} lg={4}>
                     <Card>
