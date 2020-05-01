@@ -1,4 +1,4 @@
-import React from "react"
+import Rxeact from "react"
 import { Container, Row, Col, Card, Button } from "react-bootstrap";
 
 import introToHTML from "../images/courses/intro-to-html-css-responsive-portfolio.jpg"
@@ -8,7 +8,7 @@ import gatsbyJSBlog from "../images/courses/udemy-gatsby-js-blog.jpg"
 
 const Courses = (props) => (
     <section id={props.sectionName} className="blue">
-        <Container className="text-center">
+        <Container>
             <h2>What do you want to learn about?</h2>
             <Row>
                 <Col md={6} lg={4}>

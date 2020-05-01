@@ -29,7 +29,8 @@ const AboutPage = (props) => (
             </Row>
             <hr />
             <div className="singleCol">
-            <h1 className="text-center">Become a better Web Designer by learning how to code.</h1>
+            <h1>Become a better Web Designer by learning how to code.</h1>
+                    <em>
                     <p>
                         I've always had the belief that learning how to code, even on a basic level, will make you a better web designer. My courses, YouTube Channel and podcast are all about helping you achieve a better web design, through good programming methodologies. 
                     </p>
@@ -41,9 +42,10 @@ const AboutPage = (props) => (
                     Thank you,<br />
                     Haydn S. Adams, BFA
                     </p>
+                    </em>
                     <div className="newsletter rounded mt-5">
-                            <h2 className="newsletterTitle"><small>Better your skills, one email at a time</small></h2>
-                            <p>Newsletters are boring. But short, quick snippets of code can be fun. We'll only send an email once a month updating you as to what's going on & when a new course launches.
+                            <h2 className="newsletterTitle">Better your skills, one email at a time</h2>
+                            <p>Newsletters are boring. But short, quick snippets of code can be fun. We'll only send an email once a month, updating you as to what's going on as well when a new course launches.
 
                             </p>
                             {/* <p><strong className="white">Sign up today and receive 10% on any of our courses below. </strong></p> */}
@@ -54,17 +56,17 @@ const AboutPage = (props) => (
                         </ul>
                         <div data-element="fields" data-stacked="false" className="seva-fields formkit-fields">
                             <Row>
-                                <Col lg={4}>
+                                <Col lg={3}>
                                     <Form.Group>
                                         <Form.Control className="formkit-input" aria-label="Your first name" name="fields[first_name]" placeholder="Your first name" type="text"   />
                                     </Form.Group>
                                 </Col>
-                                <Col lg={4}>
+                                <Col lg={6}>
                                     <Form.Group>
                                         <Form.Control name="email_address" placeholder="Your email address" required="" type="email"   />
                                     </Form.Group>
                                 </Col>
-                                <Col md={4}>
+                                <Col md={3}>
                                     <button data-element="submit" className="btn btn-primary btn-block" ><div class="formkit-spinner"><div></div><div></div><div></div></div><span>Sign up!</span></button>
                                 </Col>
                             </Row>
