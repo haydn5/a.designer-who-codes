@@ -38,9 +38,6 @@ nav {
     margin-bottom: 2rem;
 }
 
-.newsletter h2 {
-    line-height: 2rem;
-}
 
 
  .displayNone {
@@ -116,6 +113,12 @@ font-size: 2.5rem;
 
 @media (max-width: 768px) {
     h1 {
-        font-size: 1.5em;
+        font-size: 1.9rem;
+    }
+    h2 {
+        font-size: 1.8rem;
+    }
+    p {
+        font-size: 1.2rem;
     }
 }
