@@ -6,16 +6,17 @@ import React from "react"
  import Patreon from "./patreon"
  import About from "./about"
  import Podcast from "./podcast"
-//  import Image from "../components/image"
 
- const IndexPage = () => (
+ const IndexPage = (
+   {data}
+ ) => (
    <Layout>
      <SEO title="Web Development Tutorials for Designers" />
      <Overview sectionName="overview"/>
      <Courses sectionName="courses"/>
      <Patreon sectionName="patreon" />
      <About sectionName="about" />
-     <Podcast sectionName="podcast" />
+     <Podcast sectionName="podcast" />      
    </Layout>
  )
 

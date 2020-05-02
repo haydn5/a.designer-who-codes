@@ -1,14 +1,46 @@
 import React from "react"
-import { Container } from "react-bootstrap";
+import PodcastStuff from "../components/podcast-stuff"
+import { graphql } from "gatsby"
+// import Img from "gatsby-image"
+import podcastArtwork from "../images/a-designer-who-codes-podcast.jpg"
+import { Container, Row, Col, Image } from "react-bootstrap";
 
-const About = (props) => (
-    <section id={props.sectionName}>
-        <Container>
-            <h2>Podcast</h2>
-            <div id='buzzsprout-large-player-1051525'></div><script type='text/javascript' charset='utf-8' src='https://www.buzzsprout.com/1051525.js?container_id=buzzsprout-large-player-1051525&player=large&limit=10' />
-            This is only a test.
-        </Container>
-    </section>
-)
+const PodcastPage = (props,{
+data
+    // data: {allBuzzsproutPodcastEpisode: { edges: episodes },},
+  }) => {
+    return (
+      <section id={props.sectionName}>
+          <Container>
+            <h1>a.Designer Who Codes Podcast</h1>
+            <Row>
+                <Col lg={4}>
+                    <Image src={podcastArtwork} alt="Computer before" fluid />
+                
+                    {/* <Img fluid={props.data.placeholderImage.childImageSharp.fluid} /> */}
+                </Col>
+                <Col lg={8}>
+                    <PodcastStuff />
+                </Col>
+            </Row>
+            
+          </Container>
+        
+            
+      </section>
+    );
+  };
 
-export default About
+export default PodcastPage;
+
+export const query = graphql`
+  query {
+    placeholderImage: file(relativePath: { eq: "gatsby-astronaut.png" }) {
+        childImageSharp {
+          fluid(maxWidth: 300) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+  }
+`
