@@ -5,6 +5,7 @@ import React from "react"
  import Courses from "./courses"
  import Patreon from "./patreon"
  import About from "./about"
+ import Podcast from "./podcast"
 //  import Image from "../components/image"
 
  const IndexPage = () => (
@@ -14,6 +15,7 @@ import React from "react"
      <Courses sectionName="courses"/>
      <Patreon sectionName="patreon" />
      <About sectionName="about" />
+     <Podcast sectionName="podcast" />
    </Layout>
  )
 

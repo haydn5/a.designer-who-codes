@@ -31,12 +31,13 @@ const Header = ({ siteTitle }) => (
                  <ul className="navbar-nav">
                    <Scrollspy 
                    offset={-1}
-                   items={['overview', 'courses', 'patreon', 'about']} 
+                   items={['overview', 'courses', 'patreon', 'about', 'podcast']} 
                    className="navbar-nav" currentClassName="active">
                      <li className="displayNone"><a href="#overview" className="nav-link">Overview</a></li>
                      <li><a href="#courses" className="nav-link">Courses</a></li>
                      <li><a href="#patreon" className="nav-link">Patreon</a></li>
                      <li><a href="#about" className="nav-link">About</a></li>
+                     <li><a href="#podcast" className="nav-link">Podcast</a></li>
                    </Scrollspy>
                  </ul>
                </Nav>
