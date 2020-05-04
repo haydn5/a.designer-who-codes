@@ -66,10 +66,10 @@ const Patreon = (props) => {
                                             <div data-element="fields" data-stacked="false" className="seva-fields formkit-fields">
 
                                                         <Form.Group>
-                                                            <Form.Control className="formkit-input" aria-label="Your first name" name="fields[first_name]" placeholder="Your first name" type="text"   />
+                                                            <Form.Control size="lg" className="formkit-input" aria-label="Your first name" name="fields[first_name]" placeholder="Your first name" type="text"   />
                                                         </Form.Group>
                                                         <Form.Group>
-                                                            <Form.Control name="email_address" placeholder="Your email address" required="" type="email"   />
+                                                            <Form.Control size="lg" name="email_address" placeholder="Your email address" required="" type="email"   />
                                                         </Form.Group>
                                                         <button data-element="submit" className="btn btn-primary btn-block" ><div class="formkit-spinner"><div></div><div></div><div></div></div><span>Sign me up for this free course!</span></button>
                                             </div>
