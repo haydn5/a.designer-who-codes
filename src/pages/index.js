@@ -6,6 +6,7 @@ import React from "react"
  import Patreon from "./patreon"
  import About from "./about"
  import Podcast from "./podcast"
+ import SignUp from "./sign-up"
 
  const IndexPage = (
    {data}
@@ -13,6 +14,7 @@ import React from "react"
    <Layout>
      <SEO title="Web Development Tutorials for Designers" />
      <Overview sectionName="overview"/>
+     <SignUp sectionName="signup" />
      <Courses sectionName="courses"/>
      <Patreon sectionName="patreon" />
      <About sectionName="about" />

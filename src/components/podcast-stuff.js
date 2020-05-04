@@ -22,11 +22,6 @@ const PodcastStuff = () => {
     <StaticQuery
       query={graphql`
         query {
-          site {
-            siteMetadata {
-              title
-            }
-          }
           allBuzzsproutPodcastEpisode(limit: 1) {
             edges {
               node {
