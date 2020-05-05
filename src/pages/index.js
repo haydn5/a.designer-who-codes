@@ -12,7 +12,7 @@ import React from "react"
    {data}
  ) => (
    <Layout>
-     <SEO title="Web Development Tutorials for Designers" />
+     <SEO title="Become a better Web Designer by learning how to code." />
      <Overview sectionName="overview"/>
      <SignUp sectionName="signup" />
      <Courses sectionName="courses"/>

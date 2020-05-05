@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `<a.designer who codes />`,
-    description: `The code behind the design`,
+    description: `Become a better Web Designer by learning how to code.`,
     author: `Haydn Adams, BFA`,
     siteUrl: `https://adesignerwhocodes.com`,
   },
