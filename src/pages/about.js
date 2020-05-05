@@ -16,7 +16,7 @@ const About = (props) => (
                 <Col lg={8}>
                     <p>Since the mid '90s, Haydn has been building websites. He decided to up his design game and receive a Bachelors of Fine Arts in Computer Arts in New Media from the Academy of Art University in San Francisco. Following graduation, Haydn opened up his own design company, Nautilus Designs.</p>
 
-                    <p>Not long after running his business, the Academy offered Haydn a professorship. And for 13 years he worked, teaching Web Development, Graphic Design, Usability, and tablet design. During his tenture at the Academy, he launched 3 apps, one of which was download over 100,000 times (and possibly more as it is still live on the app store).</p>
+                    <p>Not long after running his business, the Academy offered Haydn a professorship. And for 13 years he worked, teaching Web Development, Graphic Design, Usability, and tablet design. During his tenure at the Academy, he launched 3 apps, one of which was download over 100,000 times (and possibly more as it is still live on the app store).</p>
 
                     <p>Academia is in Haydn's blood, but after 13 years, he decided to hang up his professorship and return to the private design sector. He then started up a.Designer who codes, a resourse for designers to learn the code behind the design</p>
                     

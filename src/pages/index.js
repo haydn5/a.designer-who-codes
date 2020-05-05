@@ -16,9 +16,9 @@ import React from "react"
      <Overview sectionName="overview"/>
      <SignUp sectionName="signup" />
      <Courses sectionName="courses"/>
-     <Patreon sectionName="patreon" />
-     <About sectionName="about" />
-     <Podcast sectionName="podcast" />      
+     <Podcast sectionName="podcast" /> 
+     <About sectionName="about" />  
+     <Patreon sectionName="patreon" />   
    </Layout>
  )
 

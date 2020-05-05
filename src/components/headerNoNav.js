@@ -2,7 +2,7 @@ import { Link } from "gatsby"
 // import PropTypes from "prop-types"
 import React from "react";
 // import ScrollspyNav from "react-scrollspy-nav"
-import Scrollspy from 'react-scrollspy'
+// import Scrollspy from 'react-scrollspy'
 import logoImage from "../images/a-designer-d-logo.svg"
 import youTubelogo from "../images/yt-logo.svg"
 
@@ -21,26 +21,12 @@ const Header = ({ siteTitle }) => (
          <Container>
            <Navbar expand="lg" fixed="top" variant="dark">
               <Navbar.Brand href="#home">
-                <Link to="/#overview">
+                <Link to="/">
                   <img src={logoImage} alt={siteTitle} className="img-fluid" width="50" />
                 </Link>
               </Navbar.Brand>
              <Navbar.Toggle aria-controls="basic-navbar-nav" />
              <Navbar.Collapse id="basic-navbar-nav">
-               <Nav className="navbar-nav"> 
-                 <ul className="navbar-nav">
-                   <Scrollspy 
-                   offset={-1}
-                   items={['overview', 'courses', 'podcast', 'about', 'patreon']} 
-                   className="navbar-nav" currentClassName="active">
-                     <li className="displayNone"><a href="#overview" className="nav-link">Overview</a></li>
-                     <li><a href="#courses" className="nav-link">Courses</a></li>
-                     <li><a href="#podcast" className="nav-link">Podcast</a></li>
-                     <li><a href="#about" className="nav-link">About</a></li>
-                     <li><a href="#patreon" className="nav-link">Patreon</a></li>
-                   </Scrollspy>
-                 </ul>
-               </Nav>
                <Nav className="navbar-nav ml-auto">
                <a href="https://www.youtube.com/adesignerwhocodes"><img src={youTubelogo} alt="YouTube" className="img-fluid" width="100" /></a>
                </Nav>

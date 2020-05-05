@@ -43,7 +43,7 @@ const Patreon = (props) => {
                             <Card.Body>
                                 <Row>
                                     <Col lg={6}>
-                                        <h2><span className="grey-type">FREE ONLINE COURSE IN 4K</span><br/>
+                                        <h2><span className="grey-type">FREE ONLINE COURSE</span><br/>
                                         <span className="larger-type">How to Host Your Static Website for Free</span><br />
                                         <em>(and save hundreds)</em></h2>
                                         <hr />

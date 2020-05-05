@@ -1,10 +1,13 @@
 import React from "react"
- import Layout from "../components/layout"
+ import Layout from "../components/layoutNoNav"
+ import SEO from "../components/seo"
+
 //  import Image from "../components/image"
 import { Container } from "react-bootstrap";
 
  const thankYouPage = () => (
    <Layout>
+     <SEO title="Thank you for signing up!" />
      <section>
        <Container>
          <h1 className="text-center"><small>Thank you for signing up! Here is your free online course</small><br />How to Host Your Static Website for Free (4k)</h1>
