@@ -4,6 +4,7 @@ import computerBefore from "../images/computer-before.jpg"
 import computerAfter from "../images/computer-after.jpg"
 
 import { Container, Image, Row, Col } from "react-bootstrap";
+// import { Link } from "gatsby"
 
 const AboutPage = (props) => (
     <section id={props.sectionName}>
@@ -23,7 +24,8 @@ const AboutPage = (props) => (
             <hr />
             <div className="singleCol">
             <h1>Become a better Web Designer by learning how to code.</h1>
-                    <em>
+            <p>I've always had the belief that learning how to code, even on a basic level, will make you a better web designer. <a href="#courses">My courses</a>, <a href="https://www.youtube.com/adesignerwhocodes">YouTube Channel</a> and <a href="#podcast">podcast</a> are all about helping you achieve a better web design, through good programming methodologies.</p>
+                    {/* <em>
                     <p>
                         I've always had the belief that learning how to code, even on a basic level, will make you a better web designer. My courses, YouTube Channel and podcast are all about helping you achieve a better web design, through good programming methodologies. 
                     </p>
@@ -35,7 +37,7 @@ const AboutPage = (props) => (
                     Thank you,<br />
                     Haydn S. Adams, BFA
                     </p>
-                    </em>
+                    </em> */}
                    
             </div>
         </Container>
