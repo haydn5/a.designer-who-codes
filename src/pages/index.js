@@ -7,6 +7,7 @@ import React from "react"
  import About from "./about"
  import Podcast from "./podcast"
  import SignUp from "./sign-up"
+ import YouTube from "./youtube"
 
  const IndexPage = (
    {data}
@@ -16,7 +17,8 @@ import React from "react"
      <Overview sectionName="overview"/>
      <SignUp sectionName="signup" />
      <Courses sectionName="courses"/>
-     <Podcast sectionName="podcast" /> 
+     <Podcast sectionName="podcast" />
+     <YouTube sectionName="youtube"/>
      <About sectionName="about" />  
      <Patreon sectionName="patreon" />   
    </Layout>

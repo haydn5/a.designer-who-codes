@@ -22,7 +22,8 @@ nav {
 
 .singleCol {
     max-width: 750px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .newsletter {
@@ -104,6 +105,27 @@ nav {
  .blue {
     background-color: #4494c9;
  }
+
+ .blue p {
+     color: white;
+     margin-bottom: 2rem;
+ }
+
+
+
+ .blue a {
+     color: wheat;
+     text-decoration: underline;
+ }
+
+ .blue a:hover {
+     text-decoration: none;
+ }
+
+ .blue button {
+    margin-bottom: 2rem;
+    color: green;
+}
 
  .grey-type {
      color: #5e5e5e;
