@@ -5,11 +5,15 @@ import introToHTML from "../images/courses/intro-to-html-css-responsive-portfoli
 import gatsbyJSstarter from "../images/courses/gatsby-js-starter-guide.jpg"
 import gatsbyJSBlog from "../images/courses/udemy-gatsby-js-blog.jpg"
 
+ import Layout from "../components/layout"
+ import SEO from "../components/seo"
 
-const Courses = (props) => (
-    <section id={props.sectionName} className="blue">
+
+ const Courses = () => (
+   <Layout>
+      <SEO title="Free & Paid Courses to make you a better web designer through code" /> 
         <Container>
-            <h2 className="singleCol">Let's learn something new!</h2>
+            <h1>Free & Paid Courses to make you a better web designer through code</h1>
             <p className="singleCol">Ready to jump in and improve your web design game? I've designed them to focus on design through code and to make you a better web designer.</p>
             <Row>
                 <Col md={6} lg={4}>
@@ -41,7 +45,7 @@ const Courses = (props) => (
                 </Col>
             </Row>
         </Container>
-    </section>
+    </Layout>
 )
 
 export default Courses

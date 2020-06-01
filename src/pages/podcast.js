@@ -13,7 +13,6 @@ const PodcastPage = (props,{data}) => {
             <h1>a.Designer Who Codes Podcast</h1>
             <Row>
                 <Col lg={4}>
-              
                     <Image src={podcastArtwork} alt="Podcast Artwork" fluid />
                 </Col>
                 <Col lg={8}>

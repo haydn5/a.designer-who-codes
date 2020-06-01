@@ -2,26 +2,21 @@ import { Link } from "gatsby"
 // import PropTypes from "prop-types"
 import React from "react";
 // import ScrollspyNav from "react-scrollspy-nav"
-import Scrollspy from 'react-scrollspy'
+// import Scrollspy from 'react-scrollspy'
 import logoImage from "../images/a-designer-d-logo.svg"
 import youTubelogo from "../images/yt-logo.svg"
 
 import { Container, Navbar, Nav } from 'react-bootstrap'
 
-if (typeof window !== "undefined") {
-  // eslint-disable-next-line global-require
-  require("smooth-scroll")('a[href*="#"]')
-}
 
 
 
 const Header = ({ siteTitle }) => (
   <header>
-         
-         <Container>
-           <Navbar expand="lg" fixed="top" variant="dark">
+           <Navbar expand="lg"  variant="dark">
+             <Container>
               <Navbar.Brand href="#home">
-                <Link to="/#overview">
+                <Link to="/">
                   <img src={logoImage} alt={siteTitle} className="img-fluid" width="50" />
                 </Link>
               </Navbar.Brand>
@@ -29,25 +24,22 @@ const Header = ({ siteTitle }) => (
              <Navbar.Collapse id="basic-navbar-nav">
                <Nav className="navbar-nav"> 
                  <ul className="navbar-nav">
-                   <Scrollspy 
-                   offset={-1}
-                   items={['overview', 'courses', 'podcast', 'youtube', 'about', 'patreon']} 
-                   className="navbar-nav" currentClassName="active">
-                     <li className="displayNone"><a href="#overview" className="nav-link">Overview</a></li>
-                     <li><a href="#courses" className="nav-link">Courses</a></li>
-                     <li><a href="#podcast" className="nav-link">Podcast</a></li>
-                     <li><a href="#youtube" className="nav-link">YouTube</a></li>
-                     <li><a href="#about" className="nav-link">About</a></li>
-                     <li><a href="#patreon" className="nav-link">Patreon</a></li>
-                   </Scrollspy>
+                      <li><Link to="/courses/" className="nav-link" activeClassName="active">Courses</Link></li>
+
+                      <li><Link to="/struggles/" className="nav-link" activeClassName="active">Struggles</Link></li>
+
+                      <li><Link to="/successes/" className="nav-link" activeClassName="active">Successes</Link></li>
+
+
+                      <li><Link to="/about/" className="nav-link" activeClassName="active">About</Link></li>
                  </ul>
                </Nav>
                <Nav className="navbar-nav ml-auto">
                <a href="https://www.youtube.com/adesignerwhocodes"><img src={youTubelogo} alt="YouTube" className="img-fluid" width="100" /></a>
                </Nav>
              </Navbar.Collapse>
+             </Container>
            </Navbar>
-         </Container>
    </header>
 )
 

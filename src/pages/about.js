@@ -3,11 +3,14 @@ import { Container, Row, Col, Image } from "react-bootstrap";
 
 import haydnPhoto from "../images/haydn-photo.jpg"
 
+import Layout from "../components/layout"
+import SEO from "../components/seo"
 
 const About = (props) => (
-    <section id={props.sectionName}>
+    <Layout>
+      <SEO title="About Haydn S. Adams, BFA" /> 
         <Container>
-            <h2 className="text-center">About Haydn S. Adams, BFA</h2>
+            <h1>About Haydn S. Adams, BFA</h1>
             
             <Row>
                 <Col lg={4}>
@@ -24,7 +27,7 @@ const About = (props) => (
                 </Col>
             </Row>
         </Container>
-    </section>
+    </Layout>
 )
 
 export default About

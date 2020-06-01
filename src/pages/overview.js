@@ -2,7 +2,6 @@ import React from "react"
 import mainLogo from "../images/adwc_mainlogo.svg"
 import computerBefore from "../images/computer-before.jpg"
 import computerAfter from "../images/computer-after.jpg"
-
 import { Container, Image, Row, Col } from "react-bootstrap";
 // import { Link } from "gatsby"
 
