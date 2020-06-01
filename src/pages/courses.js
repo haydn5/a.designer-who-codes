@@ -11,9 +11,9 @@ import gatsbyJSBlog from "../images/courses/udemy-gatsby-js-blog.jpg"
 
  const Courses = () => (
    <Layout>
-      <SEO title="Free & Paid Courses to make you a better web designer through code" /> 
+      <SEO title="Courses to make you a better web designer through code" /> 
         <Container>
-            <h1>Free & Paid Courses to make you a better web designer through code</h1>
+            <h1>Courses to make you a better web designer through code</h1>
             <p className="singleCol">Ready to jump in and improve your web design game? I've designed them to focus on design through code and to make you a better web designer.</p>
             <Row>
                 <Col md={6} lg={4}>
