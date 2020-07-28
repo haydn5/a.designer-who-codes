@@ -5,7 +5,6 @@ import React from "react"
 //  import Courses from "./courses"
  import Patreon from "./patreon"
 //  import About from "./about"
- import Podcast from "./podcast"
  import SignUp from "./sign-up"
 //  import YouTube from "./youtube"
 
@@ -17,7 +16,6 @@ import React from "react"
      <Overview sectionName="overview"/>
      <SignUp sectionName="signup" />
      {/* <Courses sectionName="courses"/> */}
-     <Podcast sectionName="podcast" />
      {/* <YouTube sectionName="youtube"/> */}
      {/* <About sectionName="about" />   */}
      <Patreon sectionName="patreon" />   
