@@ -32,6 +32,8 @@ const Header = ({ siteTitle }) => (
 
 
                       <li><Link to="/about/" className="nav-link" activeClassName="active">About</Link></li>
+
+                      <li><Link to="/contact/" className="nav-link" activeClassName="active">Contact</Link></li>
                  </ul>
                </Nav>
                <Nav className="navbar-nav ml-auto">
