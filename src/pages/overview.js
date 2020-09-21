@@ -22,7 +22,7 @@ const AboutPage = (props) => (
             </Row>
             <hr />
             <div className="singleCol">
-            <h1>Become a better Web Designer by learning how to code.</h1>
+            <h1>Web Design for designers and front-end developers.</h1>
             <p>I've always had the belief that learning how to code, even on a basic level, will make you a better web designer. Through my <a href="#courses">free & premium courses</a>, <a href="https://www.youtube.com/adesignerwhocodes">YouTube Channel</a> where I upload content twice a week, and <a href="#podcast">podcast</a> that is released weekly, you'll learn how to become a better web designer.</p>
             <p>Let's get started!</p>
                     {/* <em>
