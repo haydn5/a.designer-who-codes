@@ -6,7 +6,7 @@ import { Container, Image, Row, Col } from "react-bootstrap";
 // import { Link } from "gatsby"
 
 const AboutPage = (props) => (
-    <section id={props.sectionName}>
+    <div>
         <Container>
             <Row>
                 <Col lg={4}>
@@ -22,9 +22,20 @@ const AboutPage = (props) => (
             </Row>
             <hr />
             <div className="singleCol">
-            <h1>Web Design for designers and front-end developers.</h1>
-            <p>I've always had the belief that learning how to code, even on a basic level, will make you a better web designer. Through my <a href="#courses">free & premium courses</a>, <a href="https://www.youtube.com/adesignerwhocodes">YouTube Channel</a> where I upload content twice a week, and <a href="#podcast">podcast</a> that is released weekly, you'll learn how to become a better web designer.</p>
+            <h1>All The Tools You Need To Become A Successful Web Designer</h1>
+            <p className="text-center"><strong>Learn to Code ~ Manage A Web Design Business ~ And more!</strong></p>
+            
+            <p>I've been designing on the web since web browsers were in the lexicon. I say design beacuse there's where all of my websites start out. With a design. But the next question quickly became, <em>how do I build it?</em></p>
+
+            <p>How do I integrate a podcast on mine or my client's website? How do I design a form that emails me? It's easy to design in Photoshop, but soon after you have to enter the world of code.</p>
+
+            <p>I've always had the belief that learning how to code, even on a basic level, will make you a better web designer. Through my free & premium courses and my <a href="https://www.youtube.com/adesignerwhocodes">YouTube Channel</a> where I upload content once to twice a week, you'll learn how to become a better web designer.</p>
+
+            <p>What makes me different is I look at code from a design perspective. I went to school for art, receiving my Bachelors of Fine Arts degree. I love to design on the web—but I have to learn how to code & run a successful busines to do so.</p>
+
             <p>Let's get started!</p>
+
+            <p>Haydn S. Adams, BFA</p>
                     {/* <em>
                     <p>
                         I've always had the belief that learning how to code, even on a basic level, will make you a better web designer. My courses, YouTube Channel and podcast are all about helping you achieve a better web design, through good programming methodologies. 
@@ -41,7 +52,7 @@ const AboutPage = (props) => (
                    
             </div>
         </Container>
-    </section>
+    </div>
 )
 
 export default AboutPage
