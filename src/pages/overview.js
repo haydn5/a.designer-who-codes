@@ -7,6 +7,7 @@ import { Container, Image, Row, Col } from "react-bootstrap";
 
 const AboutPage = (props) => (
     <div>
+        {/* <!-- TradeDoubler site verification 3182343 --> */}
         <Container>
             <Row>
                 <Col lg={4}>
