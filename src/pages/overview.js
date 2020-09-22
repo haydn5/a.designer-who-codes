@@ -3,10 +3,14 @@ import mainLogo from "../images/adwc_mainlogo.svg"
 import computerBefore from "../images/computer-before.jpg"
 import computerAfter from "../images/computer-after.jpg"
 import { Container, Image, Row, Col } from "react-bootstrap";
+import { Helmet } from "react-helmet"
 // import { Link } from "gatsby"
 
 const AboutPage = (props) => (
     <div>
+        <Helmet>
+        {/* <!-- TradeDoubler site verification 3182343 --> */}
+        </Helmet>
         {/* <!-- TradeDoubler site verification 3182343 --> */}
         <Container>
             <Row>
