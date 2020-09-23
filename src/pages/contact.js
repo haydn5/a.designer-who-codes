@@ -68,7 +68,6 @@ const About = (props) => (
                         <Form.Group>
                             <Form.Label>Phone</Form.Label>
                             <Form.Control 
-                                required
                                 type="text" 
                                 name="phone" 
                             />
