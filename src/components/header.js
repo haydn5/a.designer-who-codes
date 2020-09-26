@@ -6,7 +6,7 @@ import React from "react";
 import logoImage from "../images/a-designer-d-logo.svg"
 import youTubelogo from "../images/yt-logo.svg"
 
-import { Container, Navbar, Nav } from 'react-bootstrap'
+import { Container, Navbar, Nav, OverlayTrigger, Tooltip } from 'react-bootstrap'
 
 
 
@@ -37,7 +37,17 @@ const Header = ({ siteTitle }) => (
                  </ul>
                </Nav>
                <Nav className="navbar-nav ml-auto">
-               <a href="https://www.youtube.com/adesignerwhocodes"><img src={youTubelogo} alt="YouTube" className="img-fluid" width="100" /></a>
+               <OverlayTrigger
+                  placement="bottom"
+                  overlay={
+                    <Tooltip>
+                      Subscribe to the YouTube Channel
+                    </Tooltip>
+                  }
+                >
+                  <a href="https://www.youtube.com/adesignerwhocodes?sub_confirmation=1"><img src={youTubelogo} alt="YouTube" className="img-fluid" width="100" /></a>
+                </OverlayTrigger>
+               
                </Nav>
              </Navbar.Collapse>
              </Container>
