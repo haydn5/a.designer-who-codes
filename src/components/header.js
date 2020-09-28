@@ -13,7 +13,7 @@ import { Container, Navbar, Nav, OverlayTrigger, Tooltip } from 'react-bootstrap
 
 const Header = ({ siteTitle }) => (
   <header>
-           <Navbar expand="lg"  variant="dark">
+           <Navbar expand="lg" variant="dark">
              <Container>
               <Navbar.Brand href="#home">
                 <Link to="/">
@@ -26,12 +26,14 @@ const Header = ({ siteTitle }) => (
                  <ul className="navbar-nav">
                       <li><Link to="/courses/" className="nav-link" activeClassName="active">Courses</Link></li>
 
-                      <li><Link to="/struggles/" className="nav-link" activeClassName="active">Struggles</Link></li>
+                      {/* <li><Link to="/struggles/" className="nav-link" activeClassName="active">Struggles</Link></li>
 
-                      <li><Link to="/successes/" className="nav-link" activeClassName="active">Successes</Link></li>
+                      <li><Link to="/successes/" className="nav-link" activeClassName="active">Successes</Link></li> */}
 
 
                       <li><Link to="/about/" className="nav-link" activeClassName="active">About</Link></li>
+
+                      <li><Link to="/uses/" className="nav-link" activeClassName="active">Uses</Link></li>
 
                       <li><Link to="/contact/" className="nav-link" activeClassName="active">Contact</Link></li>
                  </ul>
