@@ -27,7 +27,7 @@ const About = (props) => (
                     <h2>The Software</h2>
                     <p>I'm an <a href="http://bit.ly/ADWC-Adobe">Adobe Creative Cloud</a> guy. Some software has stunk and some software has been amazing. I've tested countless beta and alpha products for them. Adobe Acrobat is one of the most underrated tools in their arsenal. Contracts are signed digitally that take about 30 seconds to execute. And there isn't a day I'm not spending time in Photoshop. Plus the fonts Adobe gives with membership to their creative cloud is pretty amazing.</p>
                     <p>For coding, it's all about <a href="https://code.visualstudio.com">VS Code</a>. I can't believe I'm advocating a Microsoft product.</p>
-                    <p><a href="https://www.backblaze.com">Backblaze</a> is another tool I can't live without. That first online backup takes forever but it's piece of mind that if a hurricane knocks down my house and soaks the local drives, I've got a remote, off-site backup. I think I've got about 9TB or so of data on Backblaze's server. It's much cheaper than calling <a href="https://drivesaversdatarecovery.com">DriveSavers</a>, which yours truly has had to do before.</p>
+                    <p><a href="https://www.backblaze.com/cloud-backup.html#af9vjv">Backblaze</a> is another tool I can't live without. That first online backup takes forever but it's piece of mind that if a hurricane knocks down my house and soaks the local drives, I've got a remote, off-site backup. I think I've got about 9TB or so of data on Backblaze's server. It's much cheaper than calling <a href="https://drivesaversdatarecovery.com">DriveSavers</a>, which yours truly has had to do before.</p>
 
                     <h2>Online Tools</h2>
 
