@@ -36,7 +36,7 @@ const About = (props) => (
                     <p>For email marketing, I'm all about <a href="https://app.convertkit.com/referrals/l/1d8f6e84-b223-4541-8e33-0edfabbc6f69
 ">ConvertKit</a>. I've had to hack a solution for Gatsby / React, but aside from that, the landing page setup and form integration has been great. Plus the design of the email is separate from the content. From a design standpoint, that's crucial. Focus on the content at hand, not the specific design aspects.</p>
 
-                    <p>For domains, I've got them on <a href="https://www.godaddy.com">Godaddy</a>. Been buying them there for years. The main reason why is they will handle tech support for domain issues. While other companies simply handle things via chat or text, GoDaddy still has human beings on the other end of the phone. That's a big deal to me.</p>
+                    <p>For domains, I've got them on <a href="http://bit.ly/ADWC-godaddy">Godaddy</a>. Been buying them there for years. The main reason why is they will handle tech support for domain issues. While other companies simply handle things via chat or text, GoDaddy still has human beings on the other end of the phone. That's a big deal to me.</p>
                     
                     <h2>Other Things I Can't Live Without</h2>
                     <p>I thought <a href="https://amzn.to/30gKYf9">Beats headphones</a> were crazy expensive for headphones until I had an amazon credit and gave them a try. Now there's before and after having Beats headphones.</p>
