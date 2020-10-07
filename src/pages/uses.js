@@ -42,6 +42,8 @@ const About = (props) => (
                     <p>I thought <a href="https://amzn.to/30gKYf9">Beats headphones</a> were crazy expensive for headphones until I had an amazon credit and gave them a try. Now there's before and after having Beats headphones.</p>
                     <p>Get yourself a notebook, especially a <a href="https://amzn.to/2S6VyAZ">Molskine Notebook</a>. Writing down notes, specific topics I'm to record or any journal-related information goes into a physical notebook. I take mine everywhere. I'm more a writer than sketcher when it comes to the art side, but still, I can't imagine not having my Molskine Notebook with me.</p>
                     <p><a href="https://amzn.to/3jcnyPE">Two wine fridges</a>. Because the first rule of government spending is why buy one when you can buy two at twice the price. I live in the South. Gotta protect the wine from the summertime heat.</p>
+
+                    <p><small>Some links found above may be affiliate links, meaning I will make comission on sales you make through my links. This is at no extra cost to you to use my links/codes, it's just one more way to support the ADWC nation.</small></p>
                     
                 </Col>
 
