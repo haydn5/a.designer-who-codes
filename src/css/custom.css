@@ -17,7 +17,7 @@ nav {
 
 
  .black-overlay {
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0,0,0,0.7);
 }
 
 .singleCol {
@@ -53,11 +53,28 @@ nav {
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     line-height: 1.3em;
-    text-align: center;
+    max-width: 750px;
     /* border-bottom: 3px solid linear-gradient( 135deg, #72EDF2 10%, #5151E5 100%); */
     /* text-shadow: 1px 1px 10px rgba(0,0,0,.1); */
  }
 
+ .intro {
+     padding: 2rem 0;
+ }
+
+ 
+ .intro p {
+     color: #f5e4dd;
+     font-style: oblique;
+     font-size: 1.9em;
+ }
+ .intro h1 {
+     color: #BC78EC;
+     font-weight: 400;
+     font-size: 2.2em;
+     font-style: oblique;
+     background-image: linear-gradient( 135deg, #f5e4dd 10%, #f5e4dd 100%);
+ }
 
  .white {
      color: white;
@@ -69,6 +86,7 @@ nav {
     font-style: normal;
     font-size: 2rem;
     margin-bottom: 2rem;
+
  }
 
  h3 { 

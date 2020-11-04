@@ -1,19 +1,14 @@
 import React from "react"
-import mainLogo from "../images/adwc_mainlogo.svg"
-import computerBefore from "../images/computer-before.jpg"
-import computerAfter from "../images/computer-after.jpg"
-import { Container, Image, Row, Col } from "react-bootstrap";
-import { Helmet } from "react-helmet"
+import top10 from "../images/top-10-splash.jpg"
+import gatsbyImage from "../images/gatsby-image-cheat-sheet.jpg"
+import { Container, Button, Row, Col, Card } from "react-bootstrap";
+// import { Helmet } from "react-helmet"
 // import { Link } from "gatsby"
 
 const AboutPage = (props) => (
     <div>
-        <Helmet>
-        {/* <!-- TradeDoubler site verification 3182343 --> */}
-        </Helmet>
-        {/* <!-- TradeDoubler site verification 3182343 --> */}
         <Container>
-            <Row>
+            {/* <Row>
                 <Col lg={4}>
                     <Image src={computerBefore} alt="Computer before" fluid />
                 </Col>
@@ -24,23 +19,60 @@ const AboutPage = (props) => (
                 <Col lg={4}>
                     <Image src={computerAfter} alt="Computer After" fluid />
                 </Col>
-            </Row>
-            <hr />
-            <div className="singleCol">
-            <h1>All The Tools You Need To Become A Successful Web Designer</h1>
-            <p className="text-center"><strong>Learn to Code ~ Manage A Web Design Business ~ And more!</strong></p>
+            </Row> */}
+            <div>
             
-            <p>I've been designing on the web since web browsers were in the lexicon. I say design beacuse there's where all of my websites start out. With a design. But the next question quickly became, <em>how do I build it?</em></p>
+         
+                <h2 className="text-center pt-5">Download One of My Gatsby JS Tips & Cheat Sheets to power up your Gatsby workflow. </h2>
+                
+            <Row >
+                
+                <Col lg={6}>
+                    <Card>
+                        <Card.Img variant="top" src={top10} />
+                            <Card.Body>
+                                <h3>Top 10 Gatsby CLI Commands</h3>
+                                <Card.Text>
+                                A cheat-sheet for when you are learning Gatsby JS.
+                                </Card.Text>
+                                <p className="text-center">
+                                <Button href="https://adesignerwhocodes.ck.page/c410584ca5
+" variant="primary"><strong>I could use that!</strong></Button>
+                                </p>
+                                
+                            </Card.Body>
+                    </Card>
+                </Col>
+                <Col lg={6}>
+                    <Card>
+                        <Card.Img variant="top" src={gatsbyImage} />
+                            <Card.Body>
+                                <h3>Gatsby Image Cheat Sheet</h3>
+                                <Card.Text>
+                                Learn the 5 steps to implementing (and troubleshooting) Gatsby Image.
+                                </Card.Text>
+                                <p className="text-center">
+                                <Button href="https://adesignerwhocodes.ck.page/c410584ca5
+" variant="primary"><strong>Yes, I need that!</strong></Button>
+                                </p>
+                                
+                            </Card.Body>
+                    </Card>
+                </Col>
+            </Row>
+            
+            
+            {/* <p>Hi there! I'm Haydn, a web designer who also codes. I'm here to help Web Designers and Front-end Web Developers design more & troubleshoot less.</p>
 
-            <p>How do I integrate a podcast on mine or my client's website? How do I design a form that emails me? It's easy to design in Photoshop, but soon after you have to enter the world of code.</p>
+            <p>I consider myself both a front-end web developer <em>and</em> a web designer. A unicorn of sorts. To me, designing on the web requires knowledge of code.</p> */}
 
-            <p>I've always had the belief that learning how to code, even on a basic level, will make you a better web designer. Through my free & premium courses and my <a href="https://www.youtube.com/adesignerwhocodes">YouTube Channel</a> where I upload content once to twice a week, you'll learn how to become a better web designer.</p>
+            {/* <p>I've always had the belief that learning how to code, even on a basic level, will make you a better web designer. Through my free & premium courses and my <a href="https://www.youtube.com/adesignerwhocodes">YouTube Channel</a> where I upload content once to twice a week, you'll learn how to become a better web designer.</p> */}
 
-            <p>What makes me different is I look at code from a design perspective. I went to school for art, receiving my Bachelors of Fine Arts degree. I love to design on the web—but I have to learn how to code & run a successful busines to do so.</p>
+            {/* <p>What makes me different is I look at code from a design perspective. I went to school for art, receiving my Bachelors of Fine Arts degree. I love to design on the web—but I have to learn how to code & run a successful busines to do so.</p>
 
             <p>Let's get started!</p>
 
-            <p>Haydn S. Adams, BFA</p>
+            <p>Haydn S. Adams, BFA</p> */}
                     {/* <em>
                     <p>
                         I've always had the belief that learning how to code, even on a basic level, will make you a better web designer. My courses, YouTube Channel and podcast are all about helping you achieve a better web design, through good programming methodologies. 
