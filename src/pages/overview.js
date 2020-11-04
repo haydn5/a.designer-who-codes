@@ -52,7 +52,7 @@ const AboutPage = (props) => (
                                 Learn the 5 steps to implementing (and troubleshooting) Gatsby Image.
                                 </Card.Text>
                                 <p className="text-center">
-                                <Button href="https://adesignerwhocodes.ck.page/c410584ca5
+                                <Button href="https://adesignerwhocodes.ck.page/e083d8f8aa
 " variant="primary"><strong>Yes, I need that!</strong></Button>
                                 </p>
                                 
