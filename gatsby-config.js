@@ -36,8 +36,8 @@ module.exports = {
         name: `starter-template-with-react-bootstrap`,
         short_name: `starter-with-react-bootstrap`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#ffffff`,
+        theme_color: `#ffffff`,
         display: `minimal-ui`,
         icon: `src/images/favicon.jpg`, // This path is relative to the root of the site.
       },
